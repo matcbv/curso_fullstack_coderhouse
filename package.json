@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "tw": "tailwindcss -i tw_styles/input.css -o tw_styles/output.css --watch"
+    "tw": "npx tailwindcss -i tw_styles/input.css -o tw_styles/output.css --watch"
   },
   "repository": {
     "type": "git",

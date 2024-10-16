@@ -110,24 +110,16 @@
   display: flex
 }
 
-.h-full {
-  height: 100%
+.hidden {
+  display: none
 }
 
 .h-screen {
   height: 100vh
 }
 
-.w-full {
-  width: 100%
-}
-
 .w-80 {
   width: 20rem
-}
-
-.w-10 {
-  width: 2.5rem
 }
 
 .w-screen {
