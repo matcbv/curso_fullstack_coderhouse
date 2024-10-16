@@ -1,0 +1,27 @@
+{
+  "name": "curso_fullstack_coderhouse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tw": "tailwindcss -i tw_styles/input.css -o tw_styles/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matcbv/curso_fullstack_coderhouse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matcbv/curso_fullstack_coderhouse/issues"
+  },
+  "homepage": "https://github.com/matcbv/curso_fullstack_coderhouse#readme",
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.14",
+    "tailwindcss-cli": "^0.1.2"
+  }
+}
