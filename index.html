@@ -1,37 +1,49 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../tw_styles/output.css">
-    <title>Conceitos iniciais</title>
+    <title>Mercadinho do Matheus</title>
 </head>
-<body class="w-screen h-screen m-0 p-0 flex flex-col md:flex-row justify-center items-center">
-    <div class="flex justify-center w-96">
-        <form method="post" class="flex flex-col gap-2">
-            <div class="flex flex-col">
-                <label for="name">Nome</label>
-                <input type="text" name="name" id="name" autocomplete="name" autofocus>
-            </div>
-            <div class="flex flex-col">
-                <label for="lastname">Sobrenome</label>
-                <input type="text" name="lastname" id="name" autocomplete="family-name">
-            </div>
-            <div class="flex flex-col">
-                <label for="birth-date">Data de nascimento</label>
-                <input class="birth-input" type="text" name="birth-date" id="birth-date" maxlength="10" autocomplete="bday">
-            </div>
-            <input type="submit" value="Enviar">
-        </form>
+<body>
+    <h1>Faça suas compras</h1>
+    <ul>
+        <li>
+            <p>Tomate</p>
+            <button type="button">Adicionar ao carrinho</button>
+        </li>
+        <li>
+            <p>Alface</p>
+            <button type="button">Adicionar ao carrinho</button>
+        </li>
+        <li>
+            <p>Banana</p>
+            <button type="button">Adicionar ao carrinho</button>
+        </li>
+        <li>
+            <p>Melancia</p>
+            <button type="button">Adicionar ao carrinho</button>
+        </li>
+        <li>
+            <p>Frango</p>
+            <button type="button">Adicionar ao carrinho</button>
+        </li>
+        <li>
+            <p>Costela</p>
+            <button type="button">Adicionar ao carrinho</button>
+        </li>
+    </ul>
+    <div>
+        <h2>Valor total:</h2>
+        <p>R$<span class="total-value">0,00</span></p>
     </div>
-    <div class="user-info hidden mt-4 md:mt-0">
-        <ul>
-            <p>Informaçôes sobre o usuário</p>
-            <li>Nome completo: <span></span> </li>
-            <li>Idade: <span></span></li>
-            <li>Faltam <span></span> dias para seu aniversário</li>
-        </ul>
+    <div>
+        <h3>Valor para pagamento:</h3>
+        <input type="text" class="payment">
+        <button class="get-change">Calcular troco</button>
+        <h3>Troco:</h3>
+        <input type="text" class="change" disabled>
     </div>
+<script src="./curso_javascript/aula_08_exercicio.js"></script>
 </body>
-    <script src="curso_javascript/aula_02_conceitos_inicais/index.js"></script>
 </html>
