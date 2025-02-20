@@ -1,7 +1,8 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-// 
+
+// Styles
 import './index.css';
 
 // Components:
@@ -13,7 +14,7 @@ createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <NavBar />
       <Routes>
-        <Route path='/' element={Home}/>
+        <Route path='/' element={<Home />}/>
       </Routes>
     </BrowserRouter>
   </StrictMode>,
