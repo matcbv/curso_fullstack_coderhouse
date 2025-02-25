@@ -1,8 +1,8 @@
 import { useContext } from "react";
-import { CartContext } from "../../contexts/CartProvider/context";
-import { action_types } from "../../contexts/CartProvider/action_types";
+import { CartContext } from "../contexts/CartProvider/context";
+import { action_types } from "../contexts/CartProvider/action_types";
 
-export function SeasonSection(){
+export function CarouselCatalog(){
     const [, dispatch] = useContext(CartContext);
 
     return (
