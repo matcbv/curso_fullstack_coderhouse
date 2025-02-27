@@ -4,6 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import { Home } from './pages/Home';
 import { Checkout } from './pages/Checkout';
 import { Session } from './pages/Session';
+import { Register } from './pages/Register';
 
 export function AppRoutes(){
     return (
@@ -11,6 +12,7 @@ export function AppRoutes(){
             <Route path='/' element={<Home />}/>
             <Route path='/checkout' element={<Checkout />}/>
             <Route path='/session' element={<Session />}/>
+            <Route path='/register' element={<Register />}/>
         </Routes>
     );
 };
